@@ -1,34 +1,35 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
-import CategoryStyle from './category.module.css';
+import '../sidebar.css';
 function Category() {
     return (
         <div>
-            <h2 className={CategoryStyle.sidebarTitle}>Category</h2>
+            <h2 className="sidebarTitle">Category</h2>
 
             <div>
-                <label className={CategoryStyle.sidebarLabelContainer}>
+                <label className="sidebarLabelContainer">
                     <input type="radio" name="test"/>
-                    <span className={CategoryStyle.checkmark}></span> All
+                    <span className="checkmark"></span>All
                 </label>
 
-                <label className={CategoryStyle.sidebarLabelContainer}>
+                <label className="sidebarLabelContainer">
                     <input type="radio" name="test"/>
-                    <span className={CategoryStyle.checkmark}></span> Sneakers
+                    <span className="checkmark"></span>Sneakers
                 </label>
 
-                <label className={CategoryStyle.sidebarLabelContainer}>
+                <label className="sidebarLabelContainer">
                     <input type="radio" name="test"/>
-                    <span className={CategoryStyle.checkmark}></span> Flats
+                    <span className="checkmark"></span>Flats
                 </label>
 
-                <label className={CategoryStyle.sidebarLabelContainer}>
+                <label className="sidebarLabelContainer">
                     <input type="radio" name="test"/>
-                    <span className={CategoryStyle.checkmark}></span> Sandals
+                    <span className="checkmark"></span>Sandals
                 </label>
 
-                <label className={CategoryStyle.sidebarLabelContainer}>
+                <label className="sidebarLabelContainer">
                     <input type="radio" name="test"/>
-                    <span className={CategoryStyle.checkmark}></span> Heels
+                    <span className="checkmark"></span>Heels
                 </label>
             </div>
         </div>

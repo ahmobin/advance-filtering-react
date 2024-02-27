@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductStyle from './products.module.css';
+import ProductStyle from './Products.module.css';
 import {AiFillStar} from "react-icons/ai";
 import {BsFillBagHeartFill} from "react-icons/bs";
 function Products() {

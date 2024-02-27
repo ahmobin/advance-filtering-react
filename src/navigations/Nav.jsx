@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import NavStyle from './nav.module.css';
+import NavStyle from './Nav.module.css';
 import {FiHeart} from "react-icons/fi";
 import {AiOutlineShoppingCart, AiOutlineUserAdd} from "react-icons/ai";
 function Nav() {
