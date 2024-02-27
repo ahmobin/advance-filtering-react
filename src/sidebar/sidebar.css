@@ -30,7 +30,7 @@
 .sidebarLabelContainer {
     display: block;
     position: relative;
-    padding: 35px;
+    padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
     -webkit-user-select: none;

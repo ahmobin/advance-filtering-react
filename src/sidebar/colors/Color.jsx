@@ -7,35 +7,13 @@ function Color() {
     return (
         <div>
             <h2 className="sidebarTitle">Colors</h2>
-            <label className={["sidebarLabelContainer", ColorStyle.colorTitle].join(' ')}>
-                <input type="radio" value="" name="test1"/>
-                <span className="checkmark"></span>All
-            </label>
 
-            <label className={["sidebarLabelContainer", ColorStyle.colorTitle].join(' ')}>
-                <input type="radio" value="" name="test1"/>
-                <span className="checkmark"></span>Black
-            </label>
-
-            <label className={["sidebarLabelContainer", ColorStyle.colorTitle].join(' ')}>
-                <input type="radio" value="" name="test1"/>
-                <span className="checkmark"></span>Blue
-            </label>
-
-            <label className={["sidebarLabelContainer", ColorStyle.colorTitle].join(' ')}>
-                <input type="radio" value="" name="test1"/>
-                <span className="checkmark"></span>Red
-            </label>
-
-            <label className={["sidebarLabelContainer", ColorStyle.colorTitle].join(' ')}>
-                <input type="radio" value="" name="test1"/>
-                <span className="checkmark"></span>Green
-            </label>
-
-            <label className={["sidebarLabelContainer", ColorStyle.colorTitle].join(' ')}>
-                <input type="radio" value="" name="test1"/>
-                <span className="checkmark"></span>White
-            </label>
+            <Input />
+            <Input />
+            <Input />
+            <Input />
+            <Input />
+            <Input />
         </div>
     );
 }
