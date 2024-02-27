@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import RecomStyle from './recommended.module.css';
 function Recommended() {
