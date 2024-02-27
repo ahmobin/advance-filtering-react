@@ -6,7 +6,7 @@ import Category from "./category/Category.jsx";
 import Color from "./colors/Color.jsx";
 import Price from "./price/Price.jsx";
 
-function Sidebar() {
+function Sidebar({handleRadioChange}) {
     return (
         <>
             <section className="sidebar">
@@ -14,9 +14,9 @@ function Sidebar() {
                     <h1><GiShoppingCart/></h1>
                 </div>
 
-                <Category />
-                <Price />
-                <Color />
+                <Category handleRadioChange={handleRadioChange} />
+                <Price handleRadioChange={handleRadioChange} />
+                <Color handleRadioChange={handleRadioChange} />
 
             </section>
         </>
